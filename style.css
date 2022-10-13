@@ -112,7 +112,7 @@ header.shadow {
 .home-img img{
   height: 100%;
   position: absolute;
-  left: 50%;
+  left: 70%;
   bottom: 0;
   transform: translateX(-50%);
   transition: bottom 1s, left 1s;
