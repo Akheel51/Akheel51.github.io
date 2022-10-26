@@ -101,7 +101,7 @@ header.shadow {
   gap: 1rem;
 }
 .home-img{
-  width: 65%;
+  width: 55%;
   height: 70%;
   position: absolute;
   bottom: 15%;
@@ -118,11 +118,11 @@ header.shadow {
   transition: bottom 1s, left 1s;
 }
 .home-img:hover .dev{
-  left: 45%;
+  left: 65%;
 }
 
 .home-img:hover .shape{
-  bottom: 40px;
+  bottom: 15px;
 }
 
 
@@ -452,6 +452,16 @@ form textarea {
   }
   .home-img {
     order: initial;
+  }
+  .home-img{
+    width: 65%;
+    height: 90%;
+    position: relative;
+    left: 1%;
+    top: 1%;
+    bottom: 15%;
+    right: 84px;
+    z-index: 5;
   }
   .about-container {
     grid-template-columns: 1fr;
